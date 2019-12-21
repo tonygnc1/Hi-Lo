@@ -43,20 +43,24 @@
 }
 
 button {
-  width: 85px;
+  width: 100px;
   height: 50px;
   display: block;
   padding: 10px;
-  margin: 10px 0px 0px 450px;
-  font-size: 1.3em;
+  margin: 10px 0px 0px 510px;
+  font-size: 1.6em;
+  background-color: blue;
+  color: whitesmoke;
 }
 
 .message {
   font-size: 3em;
   margin: 10px 0px 0px 450px;
+  /* color: red; */
 }
 
 .message1 {
   margin: 10px 0px 10px 450px;
   font-size: 2.3em;
+  /* color: blue; */
 }
