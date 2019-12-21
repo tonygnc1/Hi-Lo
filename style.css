@@ -1,8 +1,66 @@
+.boby {
+    background-color: lightblue;
+}
+
 .hideButton {
-    display: none;
+  display: none;
 }
 
 .score {
-    display: inline-block;
+  display: inline;
+  margin: auto;
+  font-size: 1em;
 }
-    
+
+.card {
+  position: absolute;
+  left: 0;
+  top: 80px;
+  display: inline-block;
+  margin: 150px 0px 0px 458px;
+  padding: 7px;
+  height: 120px;
+  width: 90px;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 10px #333;
+}
+
+.big {
+  font-size: 3em;
+  text-align: center;
+  line-height: 35px;
+  margin: 10px;
+  display: block;
+}
+
+.red {
+  color: red;
+}
+
+.tiny {
+  display: block;
+  font-size: 1.5em;
+  line-height: 10px;
+  /* vertical-align: top; */
+}
+
+button {
+  width: 85px;
+  height: 50px;
+  display: block;
+  padding: 10px;
+  margin: 10px 0px 0px 450px;
+  font-size: 1.3em;
+}
+
+.message {
+  font-size: 2em;
+  margin: 10px 0px 0px 450px;
+}
+
+.message1 {
+  margin: 10px 0px 10px 450px;
+  font-size: 2em;
+}
