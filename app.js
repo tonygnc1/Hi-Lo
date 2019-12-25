@@ -48,7 +48,7 @@ function playGame(e) {
       score.innerHTML = scoreValue;
       message.innerHTML = 'Correct, Next draw';
     } else {
-        message.innerHTML =" Incorrect - Game Over - Start New G";
+        message.innerHTML =" Incorrect - Game Over - Start New Game";
         toggleButtons();
         scoreValue = '';
     }
